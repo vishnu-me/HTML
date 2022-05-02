@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input id="age" type="Number" placeholder="Enter your age">
+<button type="submit" onclick="agecalculator()">Submit</button>
+
+<script>
+    function agecalculator(){
+        var userinput=document.getElementById("age").value
+        if(userinput>19){
+            alert("You are eligible");
+
+        }
+        else{
+            alert("You are not eligible");
+        }
+    }
+</script>
+</body>
+</html>
